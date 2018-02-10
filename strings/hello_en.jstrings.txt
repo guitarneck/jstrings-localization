@@ -1,0 +1,15 @@
+/* This file is optionnal. See : hello.jstrings.txt */
+"hello"="hello";
+"Arabic"="Arabic";
+"Danish"="Danish";
+"German"="German";
+"English"="English";
+"Spanish"="Spanish";
+"Finnish"="Finnish";
+"French"="French";
+"Hebrew"="Hebrew";
+"Japanese"="Japanese";
+"Russian"="Russian";
+"Swedish"="Swedish";
+"Vietnamese"="Vietnamese";
+"Chinese"="Chinese";

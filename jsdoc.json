@@ -1,0 +1,19 @@
+{
+    "tags"      : {
+        "allowUnknownTags"  : true
+    },
+
+    "opts"      : {
+        "mainpagetitle" : "JStrings Localization",
+        "destination"   : "./documents",
+        "template"      : "templates/default"
+    },
+    
+    "templates" : {
+        "theme"             : "slate",
+        "collapseSymbols"   : true,
+        "outputSourceFiles" : false,
+        "linenums"          : true,
+        "dateFormat"        : "dddd, MMMM Do YYYY, H:mm:ss Z"
+    }
+}

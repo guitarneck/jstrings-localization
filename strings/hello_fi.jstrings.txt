@@ -1,0 +1,14 @@
+"hello"="hei";
+"Arabic"="Arabialainen";
+"Danish"="Tanskan kieli";
+"German"="Saksan kieli";
+"English"="Englanti";
+"Spanish"="Espanja";
+"Finnish"="Suomen kieli";
+"French"="Ranskan kieli";
+"Hebrew"="Heprealainen";
+"Japanese"="Japanilainen";
+"Russian"="Venäjän kieli";
+"Swedish"="Ruotsin kieli";
+"Vietnamese"="Vietnam kieli";
+"Chinese"="Kiinalainen";

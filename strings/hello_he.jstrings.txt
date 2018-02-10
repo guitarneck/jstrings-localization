@@ -1,0 +1,14 @@
+"hello"="שלום";
+"Arabic"="עֲרָבִית";
+"Danish"="דַנִי";
+"German"="גֶרמָנִיָת";
+"English"="אנגלית";
+"Spanish"="ספרדית";
+"Finnish"="פִינִית";
+"French"="צָרְפָתִית";
+"Hebrew"="עברית";
+"Japanese"="יַפָּנִית";
+"Russian"="רוּסִי";
+"Swedish"="שוודית";
+"Vietnamese"="ויאטנמית";
+"Chinese"="סִינִית";

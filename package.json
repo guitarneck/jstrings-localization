@@ -1,0 +1,42 @@
+{
+  "name": "jstrings-localization",
+  "version": "2.0.0",
+  "description": "localization based on jstrings files",
+  "main": "lib/Localization.cls.js",
+  "scripts": {
+    "test": "mocha test/tests-node.js",
+    "test-browser": "node test/test-web.js",
+    "start": "nsrun test-browser",
+    "cover-local": "istanbul cover _mocha test/tests-node.js",
+    "cover": "istanbul cover _mocha test/tests-node.js --report lcovonly",
+    "STAND--coveralls--BY": "npm run-script cover && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guitarneck/jstrings-localization.git"
+  },
+  "keywords": [
+    "javascript",
+    "localisation",
+    "i18n",
+    "node.js",
+    "browser",
+    "localization",
+    "jstrings",
+    "strings"
+  ],
+  "author": "Laurent STEFAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guitarneck/jstrings-localization/issues"
+  },
+  "homepage": "https://github.com/guitarneck/jstrings-localization#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jsdoc3": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0",
+    "opener": "^1.4.3"
+  }
+}

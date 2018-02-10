@@ -1,0 +1,14 @@
+"hello"="Hallå";
+"Arabic"="Arabiska";
+"Danish"="Danska";
+"German"="Tysk";
+"English"="Engelsk";
+"Spanish"="Spansk";
+"Finnish"="Finsk";
+"French"="Franska";
+"Hebrew"="Hebreiska";
+"Japanese"="Japansk";
+"Russian"="Ryska";
+"Swedish"="Svenska";
+"Vietnamese"="Vietnames";
+"Chinese"="Kinesisk";

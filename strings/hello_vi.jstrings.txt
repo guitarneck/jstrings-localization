@@ -1,0 +1,14 @@
+"hello"="xin chào";
+"Arabic"="Tiếng Ả Rập";
+"Danish"="Người Đan Mạch";
+"German"="Tiếng Đức";
+"English"="Anh";
+"Spanish"="Người Tây Ban Nha";
+"Finnish"="Tiếng Phần Lan";
+"French"="Người Pháp";
+"Hebrew"="Tiếng Hebrew";
+"Japanese"="Tiếng Nhật";
+"Russian"="Người Nga";
+"Swedish"="Tiếng Thụy Điển";
+"Vietnamese"="Tiếng Việt";
+"Chinese"="Trung Quốc";

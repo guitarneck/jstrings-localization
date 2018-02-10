@@ -1,0 +1,2 @@
+/* a malformed jstrings file */
+"a text"="tha do nothing but failed"

@@ -1,0 +1,14 @@
+/* Languages codes 639-1 */
+"iso_Arabic"="ar";
+"iso_Danish"="da";
+"iso_German"="de";
+"iso_English"="en";
+"iso_Spanish"="es";
+"iso_Finnish"="fi";
+"iso_French"="fr";
+"iso_Hebrew"="he";
+"iso_Japanese"="ja";
+"iso_Russian"="ru";
+"iso_Swedish"="sv";
+"iso_Vietnamese"="vi";
+"iso_Chinese"="zh";

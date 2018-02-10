@@ -1,0 +1,14 @@
+"hello"="hola";
+"Arabic"="Arábica";
+"Danish"="Danés";
+"German"="Alemán";
+"English"="Inglés";
+"Spanish"="Español";
+"Finnish"="Finlandés";
+"French"="Francés";
+"Hebrew"="Hebreo";
+"Japanese"="Japonés";
+"Russian"="Ruso";
+"Swedish"="Sueco";
+"Vietnamese"="Vietnamita";
+"Chinese"="Chino";

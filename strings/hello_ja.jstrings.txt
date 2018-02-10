@@ -1,0 +1,14 @@
+"hello"="こんにちは";
+"Arabic"="アラビア語";
+"Danish"="デンマーク語";
+"German"="ドイツ人";
+"English"="英語";
+"Spanish"="スペイン語";
+"Finnish"="フィンランド語";
+"French"="フランス語";
+"Hebrew"="ヘブライ語";
+"Japanese"="にほんご";
+"Russian"="ロシア";
+"Swedish"="スウェーデンの";
+"Vietnamese"="ベトナム語";
+"Chinese"="中国語";
