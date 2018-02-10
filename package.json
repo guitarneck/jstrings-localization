@@ -9,11 +9,11 @@
     "start": "nsrun test-browser",
     "cover-local": "istanbul cover _mocha test/tests-node.js",
     "cover": "istanbul cover _mocha test/tests-node.js --report lcovonly",
-    "STAND--coveralls--BY": "npm run-script cover && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+    "coveralls": "npm run-script cover && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/guitarneck/jstrings-localization.git"
+    "url": "https://github.com/guitarneck/jstrings-localization.git"
   },
   "keywords": [
     "javascript",
