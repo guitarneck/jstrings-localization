@@ -5,8 +5,10 @@
   "main": "lib/Localization.cls.js",
   "scripts": {
     "test": "mocha test/tests-node.js",
-    "test-browser": "node test/test-web.js",
+    "test-browser": "node test/test-web.js &",
+    "halt-browser": "kill `ps -e -o pid,command | grep test-web.js | head -1 | grep -oP '\\d+'`",
     "start": "nsrun test-browser",
+    "stop": "npm run halt-browser",
     "cover-local": "istanbul cover _mocha test/tests-node.js",
     "cover": "istanbul cover _mocha test/tests-node.js --report lcovonly",
     "coveralls": "npm run-script cover && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
@@ -35,7 +37,9 @@
     "coveralls": "^3.0.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
     "gulp-jsdoc3": "^1.0.1",
+    "gulp-order": "^1.2.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.0.0",
     "opener": "^1.4.3"

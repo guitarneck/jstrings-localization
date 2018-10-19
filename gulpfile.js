@@ -22,14 +22,44 @@ var config = {
             task    : 'jsdoc',
             desc    : 'Generate the documentation.',
 
-            src     : ['README.md','./lib/**/*.js'],
+            src     : ['README.md','./lib/**/*.js']
+        },
 
+    'clean':
+        {
+            task    : 'clean',
+            desc    : 'Clean the project directory.',
+            
+            files   : ['./documents/*','./lib/*','!./documents','!./lib']
+        },
+
+    'javascripts':
+        {
+            task    : 'javascripts',
+            desc    : 'Build javascripts into project.',
+            
+            subs    : ['concat','copy'],
+
+            src     : './src/**/*.js',
+            bas     : './src',
+            dst     : './lib',
+            
+            concat  : {
+                task    : 'javascripts-concat',
+                desc    : 'Concat javascripts into project.',
+                grp     : {}
+            },
+            
+            copy    : {
+                task    : 'javascripts-copy',
+                desc    : 'Copy javascripts into project.'
+            }
         },
 
     'version':
         {
             task    : 'version',
-            desc    : 'Display this package version.',
+            desc    : 'Display this package version.'
         }
 
 };
@@ -40,6 +70,10 @@ var config = {
 
 try {
     require('./tasks/gulp-jsdoc.js')(gulp,config.jsdoc);
+
+    require('./tasks/gulp-clean.js')(gulp,config.clean);
+
+    require('./tasks/gulp-javascripts.js')(gulp,config.javascripts);
 
     require('./tasks/gulp-config-help.js')(gulp,config);
 
