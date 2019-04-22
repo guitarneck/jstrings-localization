@@ -6,12 +6,12 @@
   "scripts": {
     "test": "mocha test/tests-node.js",
     "test-browser": "node test/test-web.js &",
-    "halt-browser": "kill `ps -e -o pid,command | grep test-web.js | head -1 | grep -oP '\\d+'`",
-    "start": "nsrun test-browser",
+    "halt-browser": "pkill node",
+    "start": "npm run test-browser",
     "stop": "npm run halt-browser",
     "cover-local": "istanbul cover _mocha test/tests-node.js",
     "cover": "istanbul cover _mocha test/tests-node.js --report lcovonly",
-    "coveralls": "npm run-script cover && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+    "coveralls": "npm run cover && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",

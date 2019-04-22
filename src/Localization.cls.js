@@ -4,9 +4,9 @@
  * @classdesc   Localization is a singleton. It helps to localise strings with jstrings files.
  * @hideconstructor
  * @author      Laurent STEFAN <guitarneck@free.fr>
- * @since       Feb 9, 2018
- * @version     2.0.0
- * @copyright   2012-2018 Laurent STEFAN. All rights reserved.
+ * @since       Apr 22, 2019
+ * @version     2.1.0
+ * @copyright   2012-2019 Laurent STEFAN. All rights reserved.
  *
  * @example
  * Localization.language( ["fr","en"], "en" );
@@ -14,7 +14,7 @@
  * // Salut !
  */
 
-// Copyright (c) 2012-2018 Laurent STEFAN. All rights reserved.
+// Copyright (c) 2012-2019 Laurent STEFAN. All rights reserved.
 
 /* istanbul ignore next */
 var inBrowser = typeof window !== 'undefined';
